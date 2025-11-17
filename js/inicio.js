@@ -3,7 +3,7 @@
 // apenas é preciso adicioinar as informações e endereços das imagens
 
 function abrirProduto(id) {
-    window.location.href = `VerMaisProdutos.html?id=${id}`;
+    window.location.href = `paginas/VerMaisProdutos.html?id=${id}`;
 }
 
 
