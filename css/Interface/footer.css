@@ -29,6 +29,7 @@ footer {
     flex-wrap: wrap;
     width: 100%;
     box-sizing: border-box;
+    bottom: 1px;
     
     
 }
