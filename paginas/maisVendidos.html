@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais Vendidos - Brocolís</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/maisVendido.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-left">
+            <img src="https://via.placeholder.com/150x50/004D3D/FFFFFF?text=BROCOLIS" alt="Logo Brocolís" class="header-logo">
+            <div class="search-container">
+                <input type="text" placeholder="Pesquisar produtos..." class="header-search">
+                <button class="search-btn">
+                    <span class="material-icons">search</span>
+                </button>
+            </div>
+            <nav class="header-nav">
+                <a href="#">Início</a>
+                <a href="#" class="active">Mais vendidos</a>
+                <a href="#">Sobre nós</a>
+            </nav>
+        </div>
+        <div class="header-right">
+            <button class="mobile-menu-btn">
+                <span class="material-icons">menu</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="badge">Mais Vendidos</div>
+            <h1>Os Produtos Mais Procurados</h1>
+            <p>Descubra os suplementos que estão fazendo sucesso entre nossos clientes. Qualidade garantida e resultados comprovados!</p>
+        </div>
+    </section>
+
+    <!-- FILTERS -->
+    <section class="filters">
+        <h2 class="filter-title">Filtrar por:</h2>
+        <div class="filter-options">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="whey">Whey Protein</button>
+            <button class="filter-btn" data-filter="creatina">Creatina</button>
+            <button class="filter-btn" data-filter="pre-treino">Pré-treino</button>
+            <button class="filter-btn" data-filter="vitaminas">Vitaminas</button>
+        </div>
+    </section>
+
+    <!-- PRODUCTS GRID -->
+    <section class="products-section">
+        
+        <div class="products-grid" id="products-grid">
+            <!-- Produtos serão carregados pelo JS -->
+        </div>
+        <div class="load-more">
+            <button class="load-more-btn" id="load-more">Carregar Mais Produtos</button>
+        </div>
+    </section>
+
+
+
+    <script src="/js/maisVendidos.js"></script>
+</body>
+</html>
+    
