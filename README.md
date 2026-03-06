@@ -7,5 +7,6 @@ seus produtos — permitindo cadastrar, listar, visualizar e organizar itens de 
 - Djenifer Almeida
 - José Henrique
 - Emily Ghedin
+- Bettina Bernarda
 
 
